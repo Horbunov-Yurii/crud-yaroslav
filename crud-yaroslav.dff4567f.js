@@ -1,0 +1,2 @@
+let e=document.querySelector(".btn");document.querySelector(".list");let t=document.querySelector(".backdrop"),r=document.querySelector(".form");e.addEventListener("click",()=>{t.style.display="flex"}),r.addEventListener("submit",e=>{e.preventDefault(),console.log({name:e.currentTarget.elements.name.value,type:e.currentTarget.elements.type.value,desk:e.currentTarget.elements.desk.value,url:e.currentTarget.elements.url.value,price:e.currentTarget.elements.price.value}),e.currentTarget.reset(),t.style.display="none"});
+//# sourceMappingURL=crud-yaroslav.dff4567f.js.map
